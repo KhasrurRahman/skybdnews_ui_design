@@ -1050,6 +1050,7 @@ span {
 }
 .banner_container img {
   border-radius: 35px;
+  height: 385px;
 }
 .thread_sectin_right {
   padding: 50px 0;
@@ -1144,8 +1145,7 @@ span {
 
 }
 .footer_top_left_section  img{
-  width: 120px;
-  height: 120px;
+width: 100%;
 }
 
 .footer_top_left_section > .text_section{
