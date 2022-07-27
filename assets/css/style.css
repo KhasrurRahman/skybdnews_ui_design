@@ -218,20 +218,20 @@ h2.color-title.orange {
 
 @media (max-width: 576px) {
   .search-form  {
-    width: 300px;
+    width: 255px;
     margin-left: 20px;
   }
 }
 
-@media (max-width: 576px) {
+/* @media (max-width: 576px) {
   .user  {
     width: 75px;
   }
-}
+} */
 
 @media (max-width: 576px) {
   .logo-side img  {
-    width: 365px !important;
+    width: 318px !important;
   }
 }
 
