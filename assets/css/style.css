@@ -36,7 +36,6 @@ body {
   font-weight: 500;
   line-height: 25px;
   font-family: "Hind Siliguri", sans-serif;
-  background: #e6fcff;
 }
 
 h1,
@@ -208,12 +207,37 @@ h2.color-title.orange {
   display: flex;
   flex-flow: nowrap;
   justify-content: end;
-  margin-right: 40px;
+  /* margin-right: 40px; */
 }
 
 @media (min-width: 576px) {
   .search-form.form-inline input {
+    width: 200px;
+  }
+}
+
+@media (max-width: 576px) {
+  .search-form  {
     width: 300px;
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .user  {
+    width: 75px;
+  }
+}
+
+@media (max-width: 576px) {
+  .logo-side img  {
+    width: 365px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .banner_container img {
+    height: 200px !important;
   }
 }
 
@@ -425,8 +449,13 @@ header a {
   gap: 30px;
 }
 
+.logo-side img{
+  width: 100%;
+}
+
 .user {
   position: relative;
+  margin-left: 10px;
 }
 
 .user > i {
@@ -995,20 +1024,28 @@ footer hr {
 }
 
 .item_container {
-  gap: 45px;
+  /* gap: 45px; */
 }
-.item_container > .item {
+.container_item {
   display: flex;
   align-items: center;
   justify-content: space-between;
   height: 120px;
   border-radius: 15px;
   padding: 50px;
-  width: 360px;
+  margin: 15px 0px;
 }
 
-.item_container > .item:hover {
-  border: 3px solid #369673;
+.item_1:hover {
+  border: 3px solid #8c8135;
+}
+
+.item_2:hover {
+  border: 3px solid #379472;
+}
+
+.item_3:hover {
+  border: 3px solid #3b97d3;
 }
 
 .item_container img {
@@ -1166,4 +1203,8 @@ width: 100%;
 .footer img{
     height: 40px;
     width: 100%;
+}
+
+.bisas_protibadon{
+  background: #e6fcff;
 }
