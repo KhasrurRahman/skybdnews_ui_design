@@ -210,9 +210,16 @@ h2.color-title.orange {
   /* margin-right: 40px; */
 }
 
-@media (min-width: 576px) {
-  .search-form.form-inline input {
+@media (max-width: 576px) {
+  .search-form input {
     width: 200px;
+    padding: 18px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .search-form button {
+    padding: 5px 20px !important;
   }
 }
 
@@ -564,10 +571,11 @@ header a {
 /* Navigation section */
 .main-nav-section {
   background-color: #c5e5da;
+  height: fit-content;
 }
 
 .main-nav-section li a {
-  margin: 5px 10px;
+  margin: 5px 18px;
   position: relative;
   padding: 7px 0;
 }
@@ -602,7 +610,7 @@ header a {
   border: none;
   position: relative;
   background: #157a5c;
-  padding: 20px;
+  padding: 27px;
 }
 
 .search-form input::placeholder {
@@ -617,7 +625,7 @@ header a {
   color: #fff;
   position: absolute;
   margin: 2px;
-  padding: 5px 20px;
+  padding: 13px 20px;
 }
 
 .search-form button:hover {
@@ -1147,6 +1155,22 @@ span {
 .button_contain button:hover{
   background:red;
 }
+
+.button_contain button:hover{
+  border: none;
+  background: #328269;
+  color: white;
+  padding: 20px 65px;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 0 auto;
+  align-items: center;
+}
+
 
 .person_section{
   display: flex;
