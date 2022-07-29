@@ -223,6 +223,12 @@ h2.color-title.orange {
   }
 }
 
+@media (max-width: 576px) {
+  .mobile_content_search_bar {
+    justify-content: center !important;
+  }
+}
+
 /* @media (max-width: 576px) {
   .user  {
     width: 75px;
@@ -1040,12 +1046,24 @@ footer hr {
   border: 3px solid #8c8135;
 }
 
+.item_1 p{
+  color: #8c8135;
+}
+
 .item_2:hover {
   border: 3px solid #379472;
 }
 
+.item_2 p{
+  color: #379472;
+}
+
 .item_3:hover {
   border: 3px solid #3b97d3;
+}
+
+.item_3 p{
+  color: #3b97d3;
 }
 
 .item_container img {
@@ -1057,7 +1075,6 @@ footer hr {
 span {
   font-size: 23px;
   font-weight: bold;
-  color: #369673;
 }
 
 .item_1 {
@@ -1094,17 +1111,17 @@ span {
   text-align: center;
 }
 .thread_sectin_right > .text_content {
-  margin: 40px 0;
+  margin: 40px 15px;
   line-height: 30px;
 }
 .thread_sectin_right h2 {
   font-weight: bold;
-  font-size: 30px;
+  font-size: 27px;
   color: white;
 }
 
 .thread_sectin_right p {
-  font-size: 30px;
+  font-size: 27px;
   color: white;
 }
 .thread_sectin_right img {
@@ -1125,6 +1142,10 @@ span {
   border-radius: 30px;
   font-weight: bold;
   font-size: 24px;
+}
+
+.button_contain button:hover{
+  background:red;
 }
 
 .person_section{
